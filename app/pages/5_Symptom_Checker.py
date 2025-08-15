@@ -1,6 +1,7 @@
 from __future__ import annotations
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 from pathlib import Path
 from components.ui import page_header, info
 
@@ -30,10 +31,13 @@ def main():
         scores = score_conditions(sel, df)
         st.write("**Relative Likelihood (normalized):**")
         ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
-        top_cond, top_score = ranked[0]
-        st.success(f"Most likely condition group: **{top_cond.title()}** ({top_score:.0%})")
-        st.write("Full breakdown:")
-        st.json(scores)
+        st.success(f"Top 2 likely conditions: {ranked[0][0].title()} ({ranked[0][1]:.0%}), {ranked[1][0].title()} ({ranked[1][1]:.0%})")
+
+        fig, ax = plt.subplots()
+        ax.bar(scores.keys(), scores.values())
+        ax.set_ylabel("Likelihood")
+        ax.set_ylim(0, 1)
+        st.pyplot(fig)
         info("This is an MVP heuristic; not medical advice.")
 
 if __name__ == "__main__":
