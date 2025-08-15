@@ -1,0 +1,100 @@
+{
+  "features": [
+    {
+      "name": "age",
+      "type": "int",
+      "min": 2,
+      "max": 90
+    },
+    {
+      "name": "bp",
+      "type": "int",
+      "min": 50,
+      "max": 180
+    },
+    {
+      "name": "sg",
+      "type": "float",
+      "min": 1.005,
+      "max": 1.025
+    },
+    {
+      "name": "al",
+      "type": "int",
+      "choices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "su",
+      "type": "int",
+      "choices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "bgr",
+      "type": "int",
+      "min": 50,
+      "max": 500
+    },
+    {
+      "name": "bu",
+      "type": "int",
+      "min": 1,
+      "max": 150
+    },
+    {
+      "name": "sc",
+      "type": "float",
+      "min": 0.4,
+      "max": 15
+    },
+    {
+      "name": "sod",
+      "type": "int",
+      "min": 100,
+      "max": 170
+    },
+    {
+      "name": "pot",
+      "type": "float",
+      "min": 2.5,
+      "max": 7
+    },
+    {
+      "name": "hemo",
+      "type": "float",
+      "min": 3.1,
+      "max": 17.8
+    },
+    {
+      "name": "pcv",
+      "type": "int",
+      "min": 20,
+      "max": 54
+    },
+    {
+      "name": "wbcc",
+      "type": "int",
+      "min": 3000,
+      "max": 12000
+    },
+    {
+      "name": "rbcc",
+      "type": "float",
+      "min": 2.5,
+      "max": 6.5
+    }
+  ]
+}

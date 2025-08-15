@@ -29,11 +29,11 @@ def main():
     if st.button("Check Possible Conditions"):
         scores = score_conditions(sel, df)
         st.write("**Relative Likelihood (normalized):**")
-        st.json(scores)
         ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
-        st.write("Top suggestions:")
-        for (cond, sc) in ranked[:3]:
-            st.write(f"- **{cond.title()}** — {sc:.0%}")
+        top_cond, top_score = ranked[0]
+        st.success(f"Most likely condition group: **{top_cond.title()}** ({top_score:.0%})")
+        st.write("Full breakdown:")
+        st.json(scores)
         info("This is an MVP heuristic; not medical advice.")
 
 if __name__ == "__main__":
