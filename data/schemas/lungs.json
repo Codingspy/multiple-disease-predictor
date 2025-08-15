@@ -1,0 +1,114 @@
+{
+  "features": [
+    {
+      "name": "age",
+      "type": "int",
+      "min": 1,
+      "max": 90
+    },
+    {
+      "name": "gender",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "smoking",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "yellow_fingers",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "anxiety",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "peer_pressure",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "chronic_disease",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "fatigue",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "allergy",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "wheezing",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "coughing",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "shortness_of_breath",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "swallowing_difficulty",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "chest_pain",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    }
+  ]
+}

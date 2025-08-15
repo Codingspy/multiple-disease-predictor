@@ -7,6 +7,8 @@ st.set_page_config(page_title="Multiple Disease Predictor (MVP-1)", page_icon="ð
 
 page_header("Multiple Disease Prediction â€” MVP-1", "Heart predictor + Symptom Checker (alpha)")
 
+menu = ["Heart", "Kidney", "Liver", "Lungs", "Symptom Checker"]
+sel = st.sidebar.selectbox("Select a page", menu)
 st.write(
     """
     **MVP-1 scope:**  
