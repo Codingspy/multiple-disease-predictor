@@ -1,0 +1,100 @@
+{
+  "features": [
+    {
+      "name": "age",
+      "type": "int",
+      "min": 18,
+      "max": 100
+    },
+    {
+      "name": "sex",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "cp",
+      "type": "int",
+      "choices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "trestbps",
+      "type": "int",
+      "min": 80,
+      "max": 220
+    },
+    {
+      "name": "chol",
+      "type": "int",
+      "min": 100,
+      "max": 700
+    },
+    {
+      "name": "fbs",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "restecg",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "thalach",
+      "type": "int",
+      "min": 60,
+      "max": 230
+    },
+    {
+      "name": "exang",
+      "type": "int",
+      "choices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "oldpeak",
+      "type": "float",
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "slope",
+      "type": "int",
+      "choices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "ca",
+      "type": "int",
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "thal",
+      "type": "int",
+      "choices": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

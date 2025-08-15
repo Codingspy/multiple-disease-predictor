@@ -1,0 +1,11 @@
+symptom,heart,kidney,liver,lungs
+chest_pain,0.8,0.1,0.05,0.2
+shortness_of_breath,0.6,0.2,0.1,0.7
+fatigue,0.3,0.3,0.3,0.3
+swelling_ankles,0.3,0.7,0.2,0.2
+nausea,0.1,0.2,0.6,0.1
+yellowing_of_eyes,0.0,0.0,0.9,0.0
+persistent_cough,0.1,0.1,0.1,0.8
+high_blood_pressure,0.4,0.6,0.1,0.1
+dark_urine,0.0,0.8,0.4,0.0
+loss_of_appetite,0.1,0.3,0.4,0.2
